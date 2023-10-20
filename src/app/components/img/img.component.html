@@ -1,0 +1,6 @@
+// eslint-disable-next-line @angular-eslint/template/alt-text
+<img (load)="imgLoaded()" (error)="imgError()" [src]="img" *ngIf="img; else elseImg">
+<ng-template #elseImg>
+  <img [src]="imageDefault" alt="">
+<!-- <h3>{{counter}}</h3> -->
+</ng-template>

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Los estilos reset
+@import url(./styles/reset.scss);
+
+//Fuente
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+//Esto fue de manera global
+.products--grid {
+  app-img{
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+
